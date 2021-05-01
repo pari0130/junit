@@ -1,4 +1,4 @@
-package com.study.junit.Junit5_00_tmp.Junit5_01_Assertion;
+package com.study.junit.Junit5_00_tmp;
 
 import com.study.junit.Study;
 import com.study.junit.StudyStatus;
