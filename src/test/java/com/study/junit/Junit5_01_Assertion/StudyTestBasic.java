@@ -1,6 +1,6 @@
 package com.study.junit.Junit5_01_Assertion;
 
-import com.study.junit.Study;
+import com.study.junit.domain.Study;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;

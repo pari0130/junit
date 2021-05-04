@@ -1,6 +1,6 @@
 package com.study.junit.Junit5_09_확장모델;
 
-import com.study.junit.Study;
+import com.study.junit.domain.Study;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;

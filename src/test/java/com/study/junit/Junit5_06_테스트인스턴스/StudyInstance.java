@@ -1,6 +1,6 @@
 package com.study.junit.Junit5_06_테스트인스턴스;
 
-import com.study.junit.Study;
+import com.study.junit.domain.Study;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.*;
 

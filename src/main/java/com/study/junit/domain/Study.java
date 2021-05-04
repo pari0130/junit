@@ -1,5 +1,6 @@
-package com.study.junit;
+package com.study.junit.domain;
 
+import com.study.junit.study.StudyStatus;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,6 +11,7 @@ public class Study {
     private StudyStatus status2;
     private int limit;
     private String name;
+    private Member owner;
 
     public Study(int limit) {
         if(limit < 0){

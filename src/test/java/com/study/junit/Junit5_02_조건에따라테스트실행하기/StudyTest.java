@@ -1,12 +1,10 @@
 package com.study.junit.Junit5_02_조건에따라테스트실행하기;
 
-import com.study.junit.Study;
-import com.study.junit.StudyStatus;
+import com.study.junit.domain.Study;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.condition.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.*;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)

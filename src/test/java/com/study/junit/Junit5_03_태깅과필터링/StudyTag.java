@@ -1,8 +1,7 @@
 package com.study.junit.Junit5_03_태깅과필터링;
 
-import com.study.junit.Study;
+import com.study.junit.domain.Study;
 import lombok.extern.log4j.Log4j2;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.*;
 import static org.assertj.core.api.Assertions.*;
 
