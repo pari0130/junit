@@ -10,4 +10,8 @@ public interface MemberService {
     Optional<Member> findById(Long memberId) throws MemberNotFoundException;
 
     void validate(Long membereId);
+
+    void notify(Study study);
+
+    void notify(Member member);
 }

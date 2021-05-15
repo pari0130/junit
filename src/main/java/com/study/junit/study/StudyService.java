@@ -22,6 +22,9 @@ public class StudyService {
     public Study createNewStudy(Long memberId, Study study) throws MemberNotFoundException {
         Optional<Member> member = memberService.findById(memberId);
         study.setOwner(member.orElseThrow(() -> new IllegalArgumentException("맴버 가 없습니다. '" + memberId + "'")));
+        Study newStudy = repository.save(study);
+        memberService.notify(newStudy);
+        memberService.notify(member.get());
         return repository.save(study);
     }
 }
